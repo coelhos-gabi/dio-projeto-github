@@ -1,13 +1,4 @@
 Estrutura Básica
-<!DOCTYPE html>
-<html>
-<head>
-    <meta> pode ser usada para charset - como o navegador vai fazer o encoding dos caracteres
-    <title></title> título na aba do navegador
-</head>
-<body>
-</body>
-</html>
 
 A primeira linha do documento deve ser o <!DOCTYPE html>, apesar de parecer um elemento HTML ela apenas diz ao navegador que ele está lidando com um arquivo do tipo HTML5. Os elementos HTML vem logo abaixo.
 
