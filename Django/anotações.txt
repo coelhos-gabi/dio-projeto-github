@@ -1,5 +1,0 @@
-Instalar django: pip3 install django
-Criar um projeto: django-admin startproject PROJECT_NAME
-Django cria alguns arquivos, manage é importante, com ele é possível executar comandos
-Setting.py - contem configurações
-url.py - tabela de conteudo com várias urls ou routes que se pode usar
