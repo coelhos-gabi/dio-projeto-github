@@ -1,0 +1,13 @@
+Orientação a objetos
+- HERANÇA
+    Baseada em protótipos
+    prototype
+    __proto__
+    constructor
+
+new Foo(...); 
+    1) Um novo objeto é criado, herdando Foo.prototype
+    2) A função construtora Foo é chamda com os argumentos especificados e
+        com o `this` vinculado ao novo objeto criado.
+    3) Caso a função construtora tenha um retorno explícito, será respeitado
+        o seu `return`. Senão, será retornado o objeto criado no passo 1.

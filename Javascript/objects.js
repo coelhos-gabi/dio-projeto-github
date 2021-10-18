@@ -21,7 +21,20 @@ console.log('\nRetorna um novo objeto mergeando dois ou mais objetos', Object.as
 
 // Previne todas as alterações em um objeto
 const newObj = { foo: 'bar'};
-Object.freeze(newObj);
+Object.freeze(newObj); //congela
 
 newObj.foo = 'changes';
 delete newObj.foo;
+newObj.bar = 'foo';
+
+console.log('\nVariável newObj após as alterações:', newObj);
+
+// Permite apenas a alteração de propriedades existentes em um objeto
+const person = {name: 'Gabriela'};
+Object.seal(person);
+
+person.name = 'Gabriela Coelho';
+delete person.name;
+person.age = 26;
+
+console.log('\nVariável person após as alterações:', person)
